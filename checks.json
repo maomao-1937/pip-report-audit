@@ -1,0 +1,82 @@
+[
+  {
+    "args": [
+      "pip_report_audit.py",
+      "examples/clean.json",
+      "--policy",
+      "examples/policy.json",
+      "--json"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "pip_report_audit.py",
+      "examples/direct.json",
+      "--policy",
+      "examples/policy.json",
+      "--json"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "pip_report_audit.py",
+      "examples/yanked.json",
+      "--policy",
+      "examples/policy.json",
+      "--json"
+    ],
+    "exit": 1
+  },
+  {
+    "args": [
+      "pip_report_audit.py",
+      "examples/foreign.json",
+      "--policy",
+      "examples/policy.json",
+      "--json"
+    ],
+    "exit": 1
+  },
+  {
+    "args": [
+      "pip_report_audit.py",
+      "examples/malformed.json",
+      "--policy",
+      "examples/policy.json",
+      "--json"
+    ],
+    "exit": 2
+  },
+  {
+    "args": [
+      "pip_report_audit.py",
+      "examples/vcs.json",
+      "--policy",
+      "examples/policy.json",
+      "--json"
+    ],
+    "exit": 1
+  },
+  {
+    "args": [
+      "pip_report_audit.py",
+      "examples/local.json",
+      "--policy",
+      "examples/policy-local.json",
+      "--json"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "pip_report_audit.py",
+      "examples/missinghash.json",
+      "--policy",
+      "examples/policy.json",
+      "--json"
+    ],
+    "exit": 1
+  }
+]

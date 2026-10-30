@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "pip_version": "26.0",
+  "environment": {
+    "python_version": "3.11"
+  },
+  "install": [
+    {
+      "metadata": {
+        "name": "synthetic-demo",
+        "version": "1.0"
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "download_info": {
+        "url": "https://files.example.test:443/demo.whl",
+        "archive_info": {
+          "hashes": {
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        }
+      }
+    }
+  ]
+}

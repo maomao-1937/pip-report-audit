@@ -1,0 +1,6 @@
+{
+  "allowed_hosts": [
+    "files.example.test"
+  ],
+  "allow_local": true
+}
